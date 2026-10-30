@@ -210,7 +210,7 @@ export function BantuanClient() {
                 <span>
                   <b className="block">Lacak transaksi</b>
                   <span className="mono text-xs" style={{ color: "#9AA0AE" }}>
-                    cek status pakai kode SNX
+                    cek status pakai kode SPL
                   </span>
                 </span>
               </Link>
