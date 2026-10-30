@@ -21,7 +21,7 @@ export type Order = {
 };
 
 export const newOrderId = () =>
-  `SNX-${Date.now().toString(36).toUpperCase().slice(-6)}`;
+  `SPL-${Date.now().toString(36).toUpperCase().slice(-6)}`;
 
 export const loadOrders = (): Order[] => {
   if (typeof window === "undefined") return [];
