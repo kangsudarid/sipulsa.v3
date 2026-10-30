@@ -2,7 +2,7 @@ import type { Slug } from "./catalog";
 
 export const ORDERS_KEY = "suknexaidea_orders";
 export const QRIS_IMAGE =
-  "https://res.cloudinary.com/dqjh7utdb/image/upload/v1792161327/camhvfeu1lcm0ps8ieiz.jpg";
+  "https://res.cloudinary.com/t9gwa5c8/image/upload/f_auto,q_auto/1000405130";
 export const ADMIN_WA = "0851357266414";
 export const WA_LINK = "https://wa.me/6281357266414";
 export const PAID_MESSAGE = "Terima kasih, pembayaran Anda sedang diproses";
