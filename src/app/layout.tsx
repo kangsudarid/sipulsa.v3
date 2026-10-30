@@ -26,8 +26,8 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "Suknexaidea · Infrastruktur isi ulang & tagihan",
-    template: "%s · Suknexaidea",
+    default: "Sipulsa.id · Kebutuhan isi ulang & tagihan",
+    template: "%s · Sipul",
   },
   description:
     "Pulsa, data, e-wallet, token PLN, game, dan tagihan. Diproses otomatis, tercatat, dan bisa dilacak.",
