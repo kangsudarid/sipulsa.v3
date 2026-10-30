@@ -96,7 +96,7 @@ export default function HomePage() {
             style={{ background: "var(--lem)", borderColor: "var(--lem)", color: "#292F3D" }}
           >
             <span className="tag" style={{ color: "#292F3D" }}>
-              Kenapa Suknex
+              Kenapa Sipulsa
             </span>
             <div className="mt-5 space-y-4">
               {BENEFITS.map((benefit) => (
