@@ -19,7 +19,7 @@ export function Logo({ size = 32 }: { size?: number }) {
     <Link
       href="/"
       className="flex items-center gap-2.5"
-      aria-label="Suknexaidea beranda"
+      aria-label="Sipulsa"
     >
       <svg width={size} height={size} viewBox="0 0 40 40" aria-hidden="true">
         <rect width="40" height="40" rx="8" fill="#292F3D" />
@@ -35,7 +35,7 @@ export function Logo({ size = 32 }: { size?: number }) {
         ))}
       </svg>
       <span className="whitespace-nowrap text-[19px] font-extrabold tracking-[-0.05em]">
-        suknex<span className="mut font-semibold">aidea</span>
+        si<span className="mut font-semibold">pulsa</span>
         <span className="ml-[2px] inline-block h-[15px] w-[7px] translate-y-[-1px] bg-[#F3E64B] shadow-[inset_0_0_0_1px_rgba(41,47,61,0.25)]" />
       </span>
     </Link>
