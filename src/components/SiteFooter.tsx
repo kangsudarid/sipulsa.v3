@@ -81,9 +81,9 @@ export function SiteFooter() {
           className="mono mt-14 flex flex-col justify-between gap-3 pt-6 text-xs sm:flex-row"
           style={{ borderTop: "1px solid rgba(247,247,242,.12)", color: "#9AA0AE" }}
         >
-          <span>© {year} SUKNEXAIDEA</span>
+          <span>© {year} Sipulsa</span>
           <span>
-            v1.0 · {SERVICE_ORDER.length} layanan · uptime 99.9% · build {year}.10
+            v1.3 · {SERVICE_ORDER.length} layanan · uptime 99.9% · build {year}.10
           </span>
         </div>
       </div>
