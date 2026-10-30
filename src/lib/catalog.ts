@@ -66,12 +66,12 @@ export const detectOperator = (value: string) => {
 };
 
 const pulsaBase: [number, number][] = [
-  [5, 6200],
+  [5, 7000],
   [10, 11000],
-  [20, 20900],
-  [25, 25800],
-  [50, 50800],
-  [100, 100200],
+  [20, 2100],
+  [25, 2600],
+  [50, 52000],
+  [100, 102000],
 ];
 
 const operatorAdj: Record<string, number> = {
@@ -91,8 +91,8 @@ const pulsa = (operator: string): ProductItem[] =>
 
 const dataBase: [string, number][] = [
   ["Data 3GB · 7 hari", 15000],
-  ["Data 8GB · 30 hari", 38000],
-  ["Data 15GB · 30 hari", 62000],
+  ["Data 8GB · 14 hari", 38000],
+  ["Data 15GB · 14 hari", 62000],
   ["Data 25GB · 30 hari", 88000],
   ["Data 50GB · 30 hari", 135000],
   ["Unlimited Harian · 30 hari", 99000],
@@ -148,7 +148,7 @@ export const SERVICES: Record<Slug, Service> = {
     ph: "0812 3456 7890",
     targetType: "phone",
     prov: wallets,
-    items: fill(wallets, () => nominal([10000, 20000, 25000, 50000, 100000, 200000], 1500)),
+    items: fill(wallets, () => nominal([10000, 20000, 25000, 50000, 100000, 200000], 3000)),
   },
   pln: {
     name: "Token PLN",
@@ -160,7 +160,7 @@ export const SERVICES: Record<Slug, Service> = {
     ph: "5123 4567 8901",
     targetType: "id",
     prov: ["PLN Prabayar"],
-    items: { "PLN Prabayar": nominal([20000, 50000, 100000, 200000, 500000], 2500, "Token") },
+    items: { "PLN Prabayar": nominal([20000, 50000, 100000, 200000, 500000], 3000, "Token") },
   },
   pdam: {
     name: "PDAM",
@@ -172,7 +172,7 @@ export const SERVICES: Record<Slug, Service> = {
     ph: "0123456789",
     targetType: "id",
     bill: true,
-    admin: 2500,
+    admin: 5000,
     prov: ["PDAM Jakarta", "PDAM Surabaya", "PDAM Bandung", "PDAM Medan"],
   },
   "tv-internet": {
@@ -185,7 +185,7 @@ export const SERVICES: Record<Slug, Service> = {
     ph: "1234 5678 90",
     targetType: "id",
     bill: true,
-    admin: 2500,
+    admin: 5000,
     prov: ["IndiHome", "Biznet", "First Media", "MyRepublic"],
   },
   game: {
