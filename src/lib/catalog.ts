@@ -68,8 +68,8 @@ export const detectOperator = (value: string) => {
 const pulsaBase: [number, number][] = [
   [5, 7000],
   [10, 11000],
-  [20, 2100],
-  [25, 2600],
+  [20, 23000],
+  [25, 28000],
   [50, 52000],
   [100, 102000],
 ];
@@ -90,8 +90,8 @@ const pulsa = (operator: string): ProductItem[] =>
   }));
 
 const dataBase: [string, number][] = [
-  ["Data 3GB · 7 hari", 15000],
-  ["Data 8GB · 14 hari", 38000],
+  ["Data 13GB · 7 hari", 27000],
+  ["Data 8GB · 14 hari", 40000],
   ["Data 15GB · 14 hari", 62000],
   ["Data 25GB · 30 hari", 88000],
   ["Data 50GB · 30 hari", 135000],
